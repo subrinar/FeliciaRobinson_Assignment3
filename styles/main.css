@@ -74,9 +74,9 @@ section#buttons {
 	padding: 0 70px 70px 70px;
 	background-image: url('../images/dark.jpg'); 
 	background-size: cover;
-	background-repeat: no-repeat;*
-
+	background-repeat: no-repeat;
 }
+
 
 section#buttons h3 {
 	clear: both;
@@ -114,6 +114,13 @@ section#buttons h3 {
 	-moz-transform: rotate(85deg) scale(0.67) skew(1deg) translate(0px);
 }
 
+.divforbuttons {
+	width: 100%;
+	float: left;
+	clear: both;
+	
+	/*padding: 50px;*/
+}
 
 
 .round-button {
@@ -128,8 +135,8 @@ section#buttons h3 {
   font-size:20px;
   font-weight:bold;
   float: left;
-  margin-left: 20px;
-	margin-top: 200px; 
+  margin: 20px;
+	margin-left: 50px; 
 }
 
 .round-button:hover {
@@ -365,9 +372,6 @@ ul#buttons li a {
 		margin: 0 auto;
 	}
 
-	.round-button {
-		margin-left: 5px;	 
-	}
 
 	.work li span{
 		float: right;
@@ -650,7 +654,6 @@ ul#buttons li a {
 section#buttons {
 	width: 100%;
 	float: left;
-	padding: 0 70px 70px 70px;
 	background-color: gray;
 }
 
@@ -690,7 +693,7 @@ section#buttons h3 {
   line-height:100px;
   border-radius: 10px;
  	margin-top: 0 auto; 
-}
+ }
 
 .round-button:hover {
   background: #262626;  
